@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wage Gap Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <link href='https://fonts.googleapis.com/css?family=Work+Sans:300,400' rel='stylesheet' type='text/css'>
+ 
+<section class="calculator" id="body">
+<form action="" class="wage-gap" id="wage-gap" onsubmit="return false;">
+    <!-- Total cost for every Federal employee… -->
+    <br>
+    
+  Years of Federal employment:   &nbsp; &nbsp;<br>
+  <span class="salary-initial">
+	<input type="number" min="0" step="100" id="years-employment" name="years-initial" class="age" onchange="calculateTotal()" /><label class="input__label">	</label></span>
+  <br>
+  
+    Current age: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<br>
+    <span class="salary-initial"> <!-- COPIED SPAN AND INPUT BUT NEED TO MODIFY STILL -->
+	<input type="number" min="0" step="100" id="current-age" name="salary-initial" onchange="calculateTotal()"/><label class="input__label">	</label></span>
+    <br>
+    
+    Current salary: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<br>
+    <span class="salary-initial"> <!-- COPIED SPAN AND INPUT BUT NEED TO MODIFY STILL -->
+	<input type="number" min="0" step="100" id="current-salary" name="salary-initial" onchange="calculateTotal()"/><label class="input__label">	<span class="input__label-content">$</span></label></span>
+    <br>
+    
+    Expected salary at retirement: &nbsp;&nbsp;<br>
+    <span class="salary-initial"> <!-- COPIED SPAN AND INPUT BUT NEED TO MODIFY STILL -->
+	<input type="number" min="0" step="100" id="expected-salary" name="salary-initial" onchange="calculateTotal()"/><label class="input__label">	<span class="input__label-content">$</span></label></span>
+    <br>
+    
+    Gender &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+    <span class="input">
+  <select class="input" id="womanethnicity" name="womanethnicity" onchange="calculateTotal()">
+    <option value="latina">
+      Male
+    </option>
+    <option value="black">
+      Female
+    </option>
+    <option value="pacificislander">
+      a Pac
+    </option>
+    <option value="ndn">
+      a Nat 
+    </option>
+    <option value="asian">
+      an As
+    </option>
+  </select>
+<br><br>
+  Earns only
+        
+    <span id="salary-calculated"></span>
+</form>
+</section>
+
+<section class="data">
+  <h1>The typical Federal employee will lose <em title="The same gap between white women and white men.">$300,000-$900,000</em>, but exact financial impact differs greatly from one individual to another.</h1>
+
+  <p><a href="https://www.americanprogress.org/issues/women/report/2015/04/14/110962/women-of-color-and-the-gender-wage-gap/">AmericanProgress.org</a>: “Researchers estimate that a portion of the overall gender wage gap can be attributed to factors such as occupation, differences in hours worked, and time spent in the labor force. These differences are not purely the result of ‘women’s choices.’ They reflect significant structural and economic realities that limit women’s abilities to compete with men in the labor force, resulting in lower pay.”</p>
+</section>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
