@@ -90,8 +90,8 @@ input, select {
   font: 300 30px "Work Sans", "Helvetica", sans-serif;
   border: 0;
   outline: none;
-  color: white;
-  background-color: #2F4F4F;
+  color: black;
+  background-color: #c5d8d8;
   border-radius: 2px;
 }
 
