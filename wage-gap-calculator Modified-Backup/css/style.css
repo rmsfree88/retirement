@@ -87,11 +87,11 @@ CSS: Smooth the animation out somehow? I can't do the overshooting the backgroun
 }
 
 input, select {
-  font: 300 30px "Work Sans", "Helvetica", sans-serif;
+  font: 300 30px "Source Sans Pro", "Helvetica", sans-serif;
   border: 0;
   outline: none;
-  color: white;
-  background-color: #2F4F4F;
+  color: black;
+  background-color: #DCDCDC;
   border-radius: 2px;
 }
 
