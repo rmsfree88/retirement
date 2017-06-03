@@ -69,7 +69,7 @@ CSS: Smooth the animation out somehow? I can't do the overshooting the backgroun
 
 .giant-letters, .wage-gap, h1 {
   font-size: 40px;
-  line-height: 2; /* was 2 */
+  line-height:  2; /* was 2 */
   letter-spacing: -1px;
   font-weight: 300;
 }
@@ -92,11 +92,11 @@ CSS: Smooth the animation out somehow? I can't do the overshooting the backgroun
 
 input, select {
   font: 300 32px "Work Sans", "Helvetica", sans-serif;
-  border: 0;
-  outline: none;
-  color: black;
-  background-color: #DCDCDC;
-  border-radius: 2px;
+  border: 1px solid lightgrey;
+  /*outline: none;*/
+  color: #ee5757;
+  background-color: white;
+  border-radius: 0px;
 }
 
 .salary-initial {
@@ -116,6 +116,7 @@ input {
   width: 180px;
   margin-left: 0px;
     margin-bottom:10px
+        
 }
 
 
@@ -130,7 +131,7 @@ input {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: black ;
+  color: #ee5757;
   font-family: "Work Sans", "Helvetica", sans-serif;
 }
 
