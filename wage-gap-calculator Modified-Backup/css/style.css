@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Work Sans", "Helvetica", sans-serif;
+  font-family: "Source Sans Pro", "Helvetica", sans-serif;
   font-size: .9em;
   line-height: 1.45;
 }
@@ -87,11 +87,12 @@ CSS: Smooth the animation out somehow? I can't do the overshooting the backgroun
 }
 
 input, select {
-  font: 300 30px "Work Sans", "Helvetica", sans-serif;
+  font: 300 30px "Source Sans Pro", "Helvetica", sans-serif;
   border: 0;
   outline: none;
   color: white;
   background-color: #2F4F4F;
+  border-radius: 3px;
 }
 
 .salary-initial {
@@ -100,14 +101,15 @@ input, select {
 
 .years-initial {
   position: relative;
-  background-color: #999;   
+  width: 120px;
+  padding: 4px 10px 4px 30px;
 }
 
 
 input {
   -webkit-appearance: none;
-  padding: 4px 10px 4px 45px; /* was 10 10 10 45*/
-  width: 240px;
+  padding: 4px 10px 4px 40px; /* was 10 10 10 45*/
+  width: 180px;
   margin-left: 0px;
     margin-bottom:10px
 }
@@ -116,15 +118,17 @@ input {
 .input__label {
   display: inline-block;
   position: absolute;
-  top: 0px; /*was -5px*/
+  top: 2px; /*was -5px*/
   left: 0;
   padding: 0 0 0 20px;
-  font-size: 70%;
+  font-size: 80%;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   color: white;
+  font-family: "Source Sans Pro", "Helvetica", sans-serif;
+
 }
 
 select {

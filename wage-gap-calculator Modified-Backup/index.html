@@ -12,29 +12,30 @@
 </head>
 
 <body>
-  <link href='https://fonts.googleapis.com/css?family=Work+Sans:300,400' rel='stylesheet' type='text/css'>
- 
+ <!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:300,400' rel='stylesheet' type='text/css'> -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+
 <section class="calculator" id="body">
 <form action="" class="wage-gap" id="wage-gap" onsubmit="return false;">
     <!-- Total cost for every Federal employee… -->
     <br>
     
-  Years of Federal employment:   &nbsp; &nbsp;<br>
+  Years of Federal employment <br>
   <span class="salary-initial">
-	<input type="number" min="0" step="100" id="years-employment" name="years-initial" class="age" onchange="calculateTotal()" /><label class="input__label">	</label></span>
+	<input type="number" min="0" step="1" id="years-employment" name="years-initial" class="years-initial" onchange="calculateTotal()" /><label class="input__label">	</label></span>
   <br>
   
-    Current age: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<br>
+    Current age <br>
     <span class="salary-initial"> <!-- COPIED SPAN AND INPUT BUT NEED TO MODIFY STILL -->
-	<input type="number" min="0" step="100" id="current-age" name="salary-initial" onchange="calculateTotal()"/><label class="input__label">	</label></span>
+	<input type="number" min="0" step="1" id="current-age" class="years-intial" onchange="calculateTotal()"/><label class="input__label">	</label></span>
     <br>
     
-    Current salary: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<br>
+    Current salary<br>
     <span class="salary-initial"> <!-- COPIED SPAN AND INPUT BUT NEED TO MODIFY STILL -->
 	<input type="number" min="0" step="100" id="current-salary" name="salary-initial" onchange="calculateTotal()"/><label class="input__label">	<span class="input__label-content">$</span></label></span>
     <br>
     
-    Expected salary at retirement: &nbsp;&nbsp;<br>
+    Expected salary at retirement<br>
     <span class="salary-initial"> <!-- COPIED SPAN AND INPUT BUT NEED TO MODIFY STILL -->
 	<input type="number" min="0" step="100" id="expected-salary" name="salary-initial" onchange="calculateTotal()"/><label class="input__label">	<span class="input__label-content">$</span></label></span>
     <br>
