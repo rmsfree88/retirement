@@ -86,6 +86,10 @@ CSS: Smooth the animation out somehow? I can't do the overshooting the backgroun
   line-height: 1;
 }
 
+.outputs {
+  font-size: 27px;
+}
+
 input, select {
   font: 300 32px "Work Sans", "Helvetica", sans-serif;
   border: 0;
@@ -150,6 +154,7 @@ select option {
 
 #salary-calculated {
   border-bottom: solid 10px #000000;
+  font-size: 30px;
 }
 
 .data {
