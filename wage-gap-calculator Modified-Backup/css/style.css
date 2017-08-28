@@ -18,6 +18,7 @@ body {
   height: 100vh;
   padding-left: 9%;
   border-left: solid 40px #eee;
+  display: inline-block;
 }
 
 /* I want to make a neat (but not too flashy) gradient animation that will fill the corresponding percentage of the `calculator` element's bg on calculation. This code has hacky gradient animation keyframes, ending on a Sass map of ethnicity-to-percentage keys.
