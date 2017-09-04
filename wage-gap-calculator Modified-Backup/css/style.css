@@ -168,7 +168,7 @@ select option {
   padding: 100px 40px;
 }
 
-@media (min-width: 1285px) {
+@media (min-width: 900px) {
   .calculator, .data {
     display: inline-block;
   }
